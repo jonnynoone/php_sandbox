@@ -7,7 +7,7 @@ echo 123, ' Hello ', 10.5;
 print '<p>Might as well just use \'echo\' bro...</p>';
 
 // print_r() - Print single values and arrays
-// print_r([1, 2, 3]);
+print_r([1, 2, 3]);
 
 // var_dump() - Returns more info like data type and length
 var_dump(true);
