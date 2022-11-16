@@ -3,7 +3,7 @@ if (isset($_POST['submit'])) {
     $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_SPECIAL_CHARS);
     $password = htmlspecialchars($_POST['password']);
 
-    // $name = filter_var($_POST['username'], FILTER_SANITIZE_SPECIAL_CHARS);
+    // $username = filter_var($_POST['username'], FILTER_SANITIZE_SPECIAL_CHARS);
 
     echo $username;
 }
